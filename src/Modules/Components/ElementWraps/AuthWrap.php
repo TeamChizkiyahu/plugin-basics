@@ -1,6 +1,6 @@
 <?php
 
-namespace PBASICS\Includes\WpAdminUi\Components\WpWrap;
+namespace PBASICS\Modules\Components\ElementWraps;
 
 use PBASICS\Modules\AuthWrappers\AuthOptions;
 use PBASICS\Modules\Components\ElementWraps\Wrap;
