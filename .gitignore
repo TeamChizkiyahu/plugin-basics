@@ -12,5 +12,3 @@ composer.lock
 /.php-cs-fixer.php
 .php-cs-fixer.cache
 .vscode/
-
-
