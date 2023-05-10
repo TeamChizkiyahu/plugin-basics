@@ -9,6 +9,7 @@
     ],
     "type": "library",
     "license": "Artistic-2.0",
+    "minimum-stability": "alpha",
     "authors": [
         {
             "name": "arckc"
