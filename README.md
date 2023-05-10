@@ -15,7 +15,7 @@ Use of the chizkiyahu Plugin Basics:
 To install the Plugin Basics, run the following command:
 
 ```bash
-composer require teamchizkiyahu/pluginbasics
+composer require teamchizkiyahu/plugin-basics
 ```
 
 ## Usage 
