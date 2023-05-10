@@ -1,0 +1,43 @@
+{
+    "name": "teamchizkiyahu/plugin-basics",
+    "description": "Wordpress plugin development basics simplified.",
+    "keywords": [
+        "php",
+        "framework",
+        "wordpress",
+        "plugin"
+    ],
+    "type": "library",
+    "license": "Artistic-2.0",
+    "authors": [
+        {
+            "name": "arckc"
+        }
+    ],
+    "require": {
+        "php": ">=7.2 <8.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PBASICS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PBASICS\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "pest": "./vendor/bin/pest --colors=always",
+        "XML Migrate": "vendor/bin/pest --migrate-configuration"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
